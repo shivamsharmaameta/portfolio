@@ -206,13 +206,15 @@ li {
 }
 
 .project-card {
-    text-decoration: none;
-    color: black;
     background: white;
     border-radius: 8px;
     padding: 25px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s;
+}
+.project-grid a{
+    text-decoration: none;
+    color: black;
 }
 
 .project-card:hover {
@@ -281,4 +283,5 @@ li {
         margin-top: 20px;
     }
 }
+
 
